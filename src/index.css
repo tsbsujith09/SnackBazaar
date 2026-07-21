@@ -1,0 +1,86 @@
+:root {
+  --sb-primary: #e63946;
+  --sb-dark: #1d3557;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+.product-card {
+  transition: transform 0.2s ease;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+.hero {
+  background: linear-gradient(135deg, #e63946 0%, #ff7b54 100%);
+  color: #fff;
+}
+
+.hero-banner {
+  background: url('https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&fit=crop') center/cover no-repeat;
+  min-height: 420px;
+}
+
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(230, 57, 70, 0.85) 0%, rgba(255, 123, 84, 0.85) 100%);
+  color: #fff;
+  padding: 60px 0;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+}
+
+.category-pill {
+  transition: all 0.2s ease;
+}
+.category-pill:hover {
+  transform: scale(1.03);
+}
+
+.offer-card {
+  background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%);
+  color: #fff;
+}
+
+.promo-card {
+  background: linear-gradient(135deg, #ffb703 0%, #fb8500 100%);
+  color: #fff;
+}
+
+.rating-star {
+  color: #ffc107;
+}
+
+.btn-danger {
+  background-color: var(--sb-primary);
+  border-color: var(--sb-primary);
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #c1121f;
+  border-color: #c1121f;
+}
+
+/* Image fallback so broken/slow remote images still show a clean background */
+.card-img-top,
+.product-card img {
+  background: linear-gradient(135deg, #ffe3e3 0%, #ffd6a5 100%);
+  object-fit: cover;
+}
+
+.text-danger {
+  color: var(--sb-primary) !important;
+}
+
+.nav-link a,
+.card a {
+  color: inherit;
+}
+
+a:hover {
+  color: #c1121f;
+}

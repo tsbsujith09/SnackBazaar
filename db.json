@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@snackbazaar.com",
+      "password": "admin123",
+      "phone": "9876543210",
+      "address": {
+        "street": "12 Admin Lane",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "400001",
+        "country": "India"
+      },
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Rahul Sharma",
+      "email": "rahul@example.com",
+      "password": "user123",
+      "phone": "9876500001",
+      "address": {
+        "street": "45 Green Park",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pincode": "110016",
+        "country": "India"
+      },
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Priya Nair",
+      "email": "priya@example.com",
+      "password": "user123",
+      "phone": "9876500002",
+      "address": {
+        "street": "8 MG Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001",
+        "country": "India"
+      },
+      "role": "user"
+    },
+    {
+      "name": "Sujith Bhanu Todupunoori",
+      "email": "sujith050304@gmail.com",
+      "password": "Sujith@58",
+      "phone": "8500203209",
+      "role": "user",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "pincode": "",
+        "country": "India"
+      },
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Chips & Crisps",
+      "image": "https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    },
+    {
+      "id": 2,
+      "categoryName": "Biscuits & Cookies",
+      "image": "https://images.pexels.com/photos/1626668/pexels-photo-1626668.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    },
+    {
+      "id": 3,
+      "categoryName": "Namkeen & Savories",
+      "image": "https://images.pexels.com/photos/5211212/pexels-photo-5211212.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    },
+    {
+      "id": 4,
+      "categoryName": "Chocolates & Sweets",
+      "image": "https://images.pexels.com/photos/6167333/pexels-photo-6167333.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    },
+    {
+      "id": 5,
+      "categoryName": "Nuts & Dry Fruits",
+      "image": "https://images.pexels.com/photos/57042/pexels-photo-57042.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    },
+    {
+      "id": 6,
+      "categoryName": "Beverages",
+      "image": "https://images.pexels.com/photos/16496287/pexels-photo-16496287.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Salted Potato Chips",
+      "image": "https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Chips & Crisps",
+      "brand": "CrunchyCo",
+      "price": 30,
+      "rating": 4.3,
+      "description": "Thin, crispy potato chips with just the right amount of salt. Perfect for movie nights.",
+      "stock": 120
+    },
+    {
+      "id": 2,
+      "name": "Masala Magic Chips",
+      "image": "https://images.pexels.com/photos/5211212/pexels-photo-5211212.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/5211212/pexels-photo-5211212.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Chips & Crisps",
+      "brand": "DesiBite",
+      "price": 35,
+      "rating": 4.6,
+      "stock": 90,
+      "description": "Spicy masala flavored chips inspired by Indian street food flavors."
+    },
+    {
+      "id": 3,
+      "name": "Butter Cookies Pack",
+      "image": "https://images.pexels.com/photos/1626668/pexels-photo-1626668.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/1626668/pexels-photo-1626668.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Biscuits & Cookies",
+      "brand": "SweetBake",
+      "price": 60,
+      "rating": 4.1,
+      "stock": 70,
+      "description": "Soft and crumbly butter cookies made with real creamery butter."
+    },
+    {
+      "id": 4,
+      "name": "Choco Chip Cookies",
+      "image": "https://images.pexels.com/photos/5846049/pexels-photo-5846049.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/5846049/pexels-photo-5846049.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Biscuits & Cookies",
+      "brand": "SweetBake",
+      "price": 75,
+      "rating": 4.8,
+      "stock": 65,
+      "description": "Loaded with dark chocolate chips for the ultimate cookie experience."
+    },
+    {
+      "id": 5,
+      "name": "Aloo Bhujia Namkeen",
+      "image": "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/2092897/pexels-photo-2092897.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Namkeen & Savories",
+      "brand": "BharatSnacks",
+      "price": 50,
+      "rating": 4.4,
+      "stock": 100,
+      "description": "Crispy fried potato strands with a blend of aromatic Indian spices."
+    },
+    {
+      "id": 6,
+      "name": "Kaju Katli Box",
+      "image": "https://images.pexels.com/photos/6167333/pexels-photo-6167333.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/6167333/pexels-photo-6167333.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Chocolates & Sweets",
+      "brand": "MithaiMahal",
+      "price": 320,
+      "rating": 4.9,
+      "stock": 40,
+      "description": "Soft diamond-shaped cashew fudge coated with edible silver leaf."
+    },
+    {
+      "id": 7,
+      "name": "Roasted Almonds 200g",
+      "image": "https://images.pexels.com/photos/57042/pexels-photo-57042.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/57042/pexels-photo-57042.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Nuts & Dry Fruits",
+      "brand": "NuttyFarm",
+      "price": 250,
+      "rating": 4.5,
+      "stock": 55,
+      "description": "Lightly salted roasted almonds, a healthy protein-rich snack."
+    },
+    {
+      "id": 8,
+      "name": "Mixed Dry Fruit Pack",
+      "image": "https://images.pexels.com/photos/10107855/pexels-photo-10107855.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/10107855/pexels-photo-10107855.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Nuts & Dry Fruits",
+      "brand": "NuttyFarm",
+      "price": 450,
+      "rating": 4.7,
+      "stock": 30,
+      "description": "Assortment of cashews, almonds, raisins and pistachios."
+    },
+    {
+      "id": 9,
+      "name": "Mango Fizz Drink",
+      "image": "https://images.pexels.com/photos/4955257/pexels-photo-4955257.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/4955257/pexels-photo-4955257.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Beverages",
+      "brand": "FizzUp",
+      "price": 40,
+      "rating": 4,
+      "stock": 80,
+      "description": "Refreshing carbonated mango beverage with real fruit essence."
+    },
+    {
+      "id": 10,
+      "name": "Cold Brew Coffee 250ml",
+      "image": "https://images.pexels.com/photos/16496287/pexels-photo-16496287.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/16496287/pexels-photo-16496287.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Beverages",
+      "brand": "BrewLab",
+      "price": 90,
+      "rating": 4.2,
+      "stock": 60,
+      "description": "Smooth slow-steeped cold brew coffee, lightly sweetened."
+    },
+    {
+      "id": 11,
+      "name": "Cheese Nachos",
+      "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Chips & Crisps",
+      "brand": "CrunchyCo",
+      "price": 55,
+      "rating": 4.1,
+      "stock": 75,
+      "description": "Crunchy corn nachos with a cheesy flavor coating."
+    },
+    {
+      "id": 12,
+      "name": "Dark Chocolate Bar 70%",
+      "image": "https://images.pexels.com/photos/4113364/pexels-photo-4113364.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop",
+      "gallery": [
+        "https://images.pexels.com/photos/4113364/pexels-photo-4113364.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+      ],
+      "category": "Chocolates & Sweets",
+      "brand": "CocoaCraft",
+      "price": 110,
+      "rating": 4.6,
+      "stock": 50,
+      "description": "Rich and intense 70% dark chocolate bar for true chocoholics."
+    }
+  ],
+  "cart": [],
+  "wishlist": [],
+  "orders": [
+    {
+      "userId": 4,
+      "products": [
+        {
+          "productId": 1,
+          "name": "Classic Salted Potato Chips",
+          "price": 30,
+          "quantity": 5,
+          "image": "https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+        }
+      ],
+      "totalAmount": 150,
+      "paymentMethod": "Card Payment",
+      "status": "Pending",
+      "address": {
+        "street": "5-121/16/A/1,ROAD NO-03",
+        "city": "AMEENPUR",
+        "state": "Telangana",
+        "pincode": "502032",
+        "country": "India"
+      },
+      "id": 1
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 1,
+      "rating": 5,
+      "comment": "Crispy and perfectly salted. Loved it!"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "productId": 4,
+      "rating": 4,
+      "comment": "Great choco chip cookies but a bit sweet for me."
+    }
+  ],
+  "payments": [
+    {
+      "orderId": 1,
+      "method": "Card Payment",
+      "amount": 150,
+      "status": "Paid",
+      "id": 1
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "message": "When will the new cookies be in stock?"
+    }
+  ]
+}
